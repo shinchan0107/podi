@@ -1,0 +1,90 @@
+############################
+# Flutter / Dart
+############################
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+
+############################
+# Android
+############################
+**/build/
+.gradle/
+local.properties
+key.properties
+*.apk
+*.aab
+*.iml
+*.log
+
+############################
+# Kotlin / Java
+############################
+.kotlin/
+*.class
+
+############################
+# iOS
+############################
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/ephemeral/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Runner/GeneratedPluginRegistrant.*
+
+############################
+# macOS
+############################
+macos/Pods/
+macos/Flutter/ephemeral/
+macos/Flutter/GeneratedPluginRegistrant.swift
+
+############################
+# Web
+############################
+web/.dart_tool/
+web/build/
+
+############################
+# Windows
+############################
+windows/flutter/ephemeral/
+windows/build/
+
+############################
+# Linux
+############################
+linux/flutter/ephemeral/
+linux/build/
+
+############################
+# IDEs / Editors
+############################
+.idea/
+.vscode/
+*.swp
+*.swo
+*.tmp
+
+############################
+# OS generated files
+############################
+.DS_Store
+.DS_Store?
+Thumbs.db
+desktop.ini
+
+############################
+# Git
+############################
+*.orig
+*.rej
